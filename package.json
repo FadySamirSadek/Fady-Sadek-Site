@@ -31,7 +31,7 @@
     "gatsby-plugin-google-analytics": "^1.0.15",
     "gatsby-plugin-google-fonts": "latest",
     "gatsby-plugin-offline": "^1.0.12",
-    "gatsby-plugin-postcss-sass": "^1.0.15",
+    "gatsby-plugin-react-css-modules": "^1.0.15",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-sharp": "^1.6.25",
     "gatsby-plugin-sitemap": "^1.2.10",
