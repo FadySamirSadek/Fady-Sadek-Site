@@ -6,7 +6,7 @@ import CategoryTemplateDetails from '../components/CategoryTemplateDetails'
 class CategoryTemplate extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
-    const { category } = this.props.pathContext
+    const { category } = this.props.pageContext
 
     return (
       <div>

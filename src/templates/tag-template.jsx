@@ -6,7 +6,7 @@ import TagTemplateDetails from '../components/TagTemplateDetails'
 class TagTemplate extends React.Component {
   render() {
     const { title } = this.props.data.site.siteMetadata
-    const { tag } = this.props.pathContext
+    const { tag } = this.props.pageContext
 
     return (
       <div>
