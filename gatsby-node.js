@@ -1,12 +1,10 @@
 const _ = require('lodash')
 const Promise = require('bluebird')
 const path = require('path')
-const lost = require('lost')
-const pxtorem = require('postcss-pxtorem')
 const slash = require('slash')
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
 
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve('./src/templates/post-template.jsx')
@@ -93,8 +91,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
 }
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
 
   if (node.internal.type === 'File') {
     const parsedFilePath = path.parse(node.absolutePath)

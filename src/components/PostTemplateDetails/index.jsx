@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
