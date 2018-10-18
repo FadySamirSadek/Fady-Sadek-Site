@@ -19,6 +19,7 @@ Here's a little recommended reading for Gatsby v2.
 
 * First, [what's new in v2](https://www.gatsbycentral.com/whats-new-in-gatsby-v2)
 * Next, [when should I upgrade?](https://www.gatsbycentral.com/when-should-i-upgrade-to-gatsby-v2)
+* [The Gatsby v2 announcement blog post](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/)
 
 If you **do decide to upgrade**, these articles will help you do that.
 
