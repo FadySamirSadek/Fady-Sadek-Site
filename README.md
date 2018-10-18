@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/alxshelepenok/gatsby-starter-lumen.svg)](https://github.com/alxshelepenok/gatsby-starter-lumen) [![Code Climate](https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg)](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/alxshelepenok/gatsby-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/alxshelepenok/gatsby-starter-lumen)
+[![GitHub release](https://img.shields.io/github/release/GatsbyCentral/gatsby-v2-starter-lumen.svg)](https://github.com/GatsbyCentral/gatsby-v2-starter-lumen) [![Code Climate](https://img.shields.io/codeclimate/maintainability/GatsbyCentral/gatsby-v2-starter-lumen.svg)](https://codeclimate.com/github/GatsbyCentral/gatsby-v2-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/GatsbyCentral/gatsby-v2-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/GatsbyCentral/gatsby-v2-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/GatsbyCentral/gatsby-v2-starter-lumen)
 
 # Lumen
 
@@ -57,7 +57,7 @@ Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
 
 ## Getting Started
 Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new lumen https://github.com/alxshelepenok/gatsby-starter-lumen`
+`gatsby new lumen https://github.com/GatsbyCentral/gatsby-v2-starter-lumen`
 
 #### Running in Development
 `gatsby develop`
@@ -69,7 +69,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 
 Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/alxshelepenok/gatsby-starter-lumen" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/GatsbyCentral/gatsby-v2-starter-lumen" target="_blank"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
@@ -81,38 +81,22 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 [Statinamic port](https://github.com/thangngoc89/statinamic-theme-lumen) by [Khoa Nguyen](https://github.com/thangngoc89)
 
 ## Contributors
-[<img alt="alxshelepenok" src="https://avatars2.githubusercontent.com/u/8599449?v=4&s=117" width="117">](https://github.com/alxshelepenok) |[<img alt="abisz" src="https://avatars3.githubusercontent.com/u/7287780?v=4&s=117" width="117">](https://github.com/abisz) |[<img alt="mariolopjr" src="https://avatars3.githubusercontent.com/u/2067324?v=4&s=117" width="117">](https://github.com/mariolopjr) |[<img alt="ihororlovskyi" src="https://avatars3.githubusercontent.com/u/7969737?v=4&s=117" width="117">](https://github.com/ihororlovskyi) |[<img alt="marcelabomfim" src="https://avatars0.githubusercontent.com/u/6224547?v=4&s=117" width="117">](https://github.com/marcelabomfim) |[<img alt="vinnymac" src="https://avatars0.githubusercontent.com/u/1832781?v=4&s=117" width="117">](https://github.com/vinnymac) |
-:---: |:---: |:---: |:---: |:---: |:---: |
-[alxshelepenok](https://github.com/alxshelepenok) |[abisz](https://github.com/abisz) |[mariolopjr](https://github.com/mariolopjr) |[ihororlovskyi](https://github.com/ihororlovskyi) |[marcelabomfim](https://github.com/marcelabomfim) |[vinnymac](https://github.com/vinnymac) |
-
-[<img alt="axelclark" src="https://avatars1.githubusercontent.com/u/16856928?v=4&s=117" width="117">](https://github.com/axelclark) |[<img alt="ybbarng" src="https://avatars2.githubusercontent.com/u/1793950?v=4&s=117" width="117">](https://github.com/ybbarng) |[<img alt="marktani" src="https://avatars1.githubusercontent.com/u/1780597?v=4&s=117" width="117">](https://github.com/marktani) |[<img alt="concreted" src="https://avatars2.githubusercontent.com/u/4016897?v=4&s=117" width="117">](https://github.com/concreted) |[<img alt="charandas" src="https://avatars2.githubusercontent.com/u/542168?v=4&s=117" width="117">](https://github.com/charandas) |[<img alt="zollillo" src="https://avatars3.githubusercontent.com/u/8833904?v=4&s=117" width="117">](https://github.com/zollillo) |
-:---: |:---: |:---: |:---: |:---: |:---: |
-[axelclark](https://github.com/axelclark) |[ybbarng](https://github.com/ybbarng) |[marktani](https://github.com/marktani) |[concreted](https://github.com/concreted) |[charandas](https://github.com/charandas) |[zollillo](https://github.com/zollillo) |
-
-[<img alt="codejet" src="https://avatars3.githubusercontent.com/u/802203?v=4&s=117" width="117">](https://github.com/codejet) |[<img alt="reed-jones" src="https://avatars0.githubusercontent.com/u/11511864?v=4&s=117" width="117">](https://github.com/reed-jones) |[<img alt="swapnilmishra" src="https://avatars2.githubusercontent.com/u/875450?v=4&s=117" width="117">](https://github.com/swapnilmishra) |[<img alt="vvasiloud" src="https://avatars1.githubusercontent.com/u/5891530?v=4&s=117" width="117">](https://github.com/vvasiloud) |[<img alt="wichopy" src="https://avatars2.githubusercontent.com/u/24414632?v=4&s=117" width="117">](https://github.com/wichopy) |
-:---: |:---: |:---: |:---: |:---: |
-[codejet](https://github.com/codejet) |[reed-jones](https://github.com/reed-jones) |[swapnilmishra](https://github.com/swapnilmishra) |[vvasiloud](https://github.com/vvasiloud) |[wichopy](https://github.com/wichopy) |
-
-
-## License
-The MIT License (MIT)
-
-Copyright (c) 2016-2018 Alexander Shelepenok
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* https://github.com/alxshelepenok
+* https://github.com/abisz
+* https://github.com/mariolopjr
+* https://github.com/ihororlovskyi
+* https://github.com/marcelabomfim
+* https://github.com/vinnymac
+* https://github.com/axelclark
+* https://github.com/ybbarng
+* https://github.com/marktani
+* https://github.com/concreted
+* https://github.com/charandas
+* https://github.com/zollillo
+* https://github.com/codejet
+* https://github.com/reed-jones
+* https://github.com/swapnilmishra
+* https://github.com/vvasiloud
+* https://github.com/wichopy
+* https://github.com/chmac
+* https://github.com/YoruNoHikage
