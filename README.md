@@ -2,7 +2,13 @@
 
 # Lumen
 
-Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses [Gatsby](https://github.com/gatsbyjs/gatsby).
+Lumen is a minimal, lightweight and mobile-first starter for creating blogs uses
+[Gatsby](https://github.com/gatsbyjs/gatsby).
+
+This is a fork of
+[gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen)
+updated for Gatsby v2 by the team at
+[GatsbyCentral](https://www.gatsbycentral.com/).
 
 ## Features
 + Lost Grid ([peterramsing/lost](https://github.com/peterramsing/lost)).
