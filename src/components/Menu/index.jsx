@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import './style.scss'
 
 class Menu extends React.Component {
@@ -11,7 +11,6 @@ class Menu extends React.Component {
         {menu.map(item => (
           <li className="menu__list-item" key={item.path}>
             <Link
-              exact
               to={item.path}
               className="menu__list-item-link"
               activeClassName="menu__list-item-link menu__list-item-link--active"

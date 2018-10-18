@@ -1,5 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
 import PageTemplateDetails from '../components/PageTemplateDetails'
 
 class PageTemplate extends React.Component {
@@ -10,13 +12,15 @@ class PageTemplate extends React.Component {
     const description = pageDescription !== null ? pageDescription : subtitle
 
     return (
-      <div>
-        <Helmet>
-          <title>{`${pageTitle} - ${title}`}</title>
-          <meta name="description" content={description} />
-        </Helmet>
-        <PageTemplateDetails {...this.props} />
-      </div>
+      <Layout>
+        <div>
+          <Helmet>
+            <title>{`${pageTitle} - ${title}`}</title>
+            <meta name="description" content={description} />
+          </Helmet>
+          <PageTemplateDetails {...this.props} />
+        </div>
+      </Layout>
     )
   }
 }
