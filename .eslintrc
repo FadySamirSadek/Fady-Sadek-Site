@@ -13,7 +13,7 @@
     ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
-    "function-paren-newline": ["error", "consistent"],
+    "function-paren-newline": "off",
     "no-console": "off",
     "prefer-destructuring": ["off"],
     "semi": ["error", "never"],
