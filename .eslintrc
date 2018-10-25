@@ -1,16 +1,16 @@
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
-  "plugins": [
-    "import",
-    "jsx-a11y",
-    "react"
-  ],
+  "plugins": ["import", "jsx-a11y", "react"],
   "globals": {
     "graphql": true
   },
   "rules": {
-    "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": true }],
+    "arrow-body-style": [
+      "error",
+      "as-needed",
+      { "requireReturnForObjectLiteral": true }
+    ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
     "function-paren-newline": ["error", "consistent"],
