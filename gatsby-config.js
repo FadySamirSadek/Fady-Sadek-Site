@@ -65,7 +65,8 @@ module.exports = {
                   url: site.siteMetadata.site_url + edge.node.fields.slug,
                   guid: site.siteMetadata.site_url + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                })),
+                })
+              ),
             query: `
               {
                 allMarkdownRemark(
