@@ -124,9 +124,9 @@ module.exports = {
       options: { trackingId: 'UA-73379983-2' },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [`roboto\:400,400i,500,700`],
+        fonts: ['roboto:400,400i,500,700'],
       },
     },
     {
@@ -166,7 +166,7 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-sass`,
+      resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: [
           lost(),

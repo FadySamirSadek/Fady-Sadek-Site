@@ -50,6 +50,7 @@ class PostTemplateDetails extends React.Component {
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
             <div
               className="post-single__body"
+              /* eslint-disable-next-line react/no-danger */
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="post-single__date">
