@@ -106,3 +106,4 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 * https://github.com/wichopy
 * https://github.com/chmac
 * https://github.com/YoruNoHikage
+* https://github.com/MartinRosenberg
