@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "extends": ["prettier", "airbnb"],
   "plugins": ["import", "jsx-a11y", "react"],
   "globals": {
     "graphql": true
