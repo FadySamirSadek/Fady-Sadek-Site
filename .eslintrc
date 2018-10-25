@@ -15,13 +15,13 @@
     "comma-dangle": ["error", "always-multiline"],
     "function-paren-newline": "off",
     "no-console": "off",
-    "prefer-destructuring": ["off"],
+    "prefer-destructuring": "off",
     "semi": ["error", "never"],
-    "import/extensions": ["off"],
-    "import/no-extraneous-dependencies": ["off"],
-    "jsx-a11y/anchor-is-valid": ["off"],
-    "react/jsx-filename-extension": ["off"],
-    "react/prefer-stateless-function": ["off"],
-    "react/prop-types": ["off"]
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-filename-extension": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off"
   }
 }
