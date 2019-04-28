@@ -38,22 +38,15 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }
     allMarkdownRemark(
       limit: 1000
       filter: {
-        frontmatter: {
-          category: { eq: $category }
-          layout: { eq: "post" }
-          draft: { ne: true }
-        }
+        frontmatter: { category: { eq: $category }, layout: { eq: "post" }, draft: { ne: true } }
       }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
