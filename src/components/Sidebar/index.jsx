@@ -3,17 +3,13 @@ import get from 'lodash/get'
 import { Link } from 'gatsby'
 import Menu from '../Menu'
 import Links from '../Links'
-import profilePic from '../../pages/photo.jpg'
 import './style.scss'
 
 class Sidebar extends React.Component {
   render() {
     const { location } = this.props
     const {
-      author,
-      subtitle,
-      copyright,
-      menu,
+      author, subtitle, copyright, menu,
     } = this.props.data.site.siteMetadata
     const isHomePage = get(location, 'pathname', '/') === '/'
 
@@ -22,7 +18,7 @@ class Sidebar extends React.Component {
       <div>
         <Link to="/">
           <img
-            src={profilePic}
+            src="https://avatars2.githubusercontent.com/u/7483806?s=460&v=4"
             className="sidebar__author-photo"
             width="75"
             height="75"
