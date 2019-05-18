@@ -2,9 +2,10 @@ const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
+  pathPrefix: '/Fady-Sadek-Site',
   siteMetadata: {
-    siteUrl: 'https://fadysadek.netlify.com',
-    url: 'https://fadysadek.netlify.com',
+    siteUrl: 'https://fadysamirsadek.github.io/Fady-Sadek-Site/',
+    url: 'https://fadysamirsadek.github.io/Fady-Sadek-Site/',
     title: 'Fady Sadek',
     subtitle: 'I JavaScript',
     copyright: '© All rights reserved.',
